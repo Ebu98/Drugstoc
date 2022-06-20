@@ -30,7 +30,7 @@ function Hero({ tasks, deleteTask }) {
                 </ul>
               </div>
               <div className="delete">
-                <button onClick={() => deleteTask(ref)}><img src="../assets/delete.png" alt="" /></button>
+                <button onClick={() => deleteTask(ref)} className="btn-delete"><img src="../assets/delete.png" alt="" /></button>
               </div>
             </div>
           )) : "No Task Yet"}

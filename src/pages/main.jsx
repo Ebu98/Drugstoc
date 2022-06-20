@@ -4,6 +4,7 @@ import Navbar from "../components/navbar/Navbar";
 import SearchBar from "../components/searchBar/SearchBar";
 import Sidebar from "../components/sidebar/sidebar";
 import { deleteCollection, getAllCollections } from "../helpers";
+import './main.css'
 
 const Main = () => {
   const [tasks, setTasks] = useState([]);
@@ -27,8 +28,11 @@ const Main = () => {
     <div className="app">
       <Navbar />
       <SearchBar />
-      <Sidebar />
-      <Hero tasks={tasks} deleteTask={deleteTask} />
+      <div className="sidebar-hero">
+        <Sidebar />
+        <Hero tasks={tasks} deleteTask={deleteTask} />
+      </div>
+      
     </div>
   );
 };

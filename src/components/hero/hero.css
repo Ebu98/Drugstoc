@@ -3,12 +3,23 @@
     gap: 5px;
     align-items: center;
     height: 80px;
+    width: 100%;
     background-color: #fff;
     justify-content: space-around;
   
 }
+
+.container > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.task-list {
+    width:100%;
+}
+
 .hero-container{
-    margin-left: 10%;
+    padding: 20px;
     font-weight: bold;
     font-size: 12px;
 }
@@ -16,7 +27,7 @@
 .hero-container p{
     border-radius: 10px;
     background-color: rgb(226, 221, 221);
-    width: 100px;
+    width: 100%;
     margin-top: 10px;
     text-align: center;
 }
@@ -77,19 +88,49 @@
     flex-direction: column;
     gap: 25px;
     display: flex;
-    position: absolute;
-    margin-top: -500px;
-    margin-left:300px;
-    width:63%;
+    margin-top: 10px;
+    padding: 20px;
+    width:100%;
 }
 .delete img{
-    width:50%;
+    width:20%;
 }
-.delete {
-    width: 50px;
+
+.btn-delete {
+    border: none;
+    background-color: #fff;
+    width: 100%;
 }
-@media only screen and (max-width: 375px) {
-    .task-list{
+@media only screen and (max-width: 675px) {
+
+    .container-wrapper {
+        padding: 0px !important;
+    }
+
+    .hero-container p{
+        width: 100% !important;
+    }
+
+    .hero-container{
+        padding: 5px;
+    }
+
+    .hero-task {
+        font-size: 10px;
+        width: auto;
+        height: 20px;
+    }
+
+    .delete img{
+        width:100%;
+    }
+    
+    .btn-delete {
+        border: none;
+        background-color: #fff;
+        width: 50%;
+    }
+    /* .task-list{
         width:150px;
         margin-left:-120px;
         height:5%;
@@ -119,5 +160,5 @@
         width: 40%;
         height:50px;
         font-size:12px;
-    }
+    } */
 }

@@ -5,7 +5,7 @@ function Sidebar(props) {
   return (
     <div className="sidebar-container">
       <div className="tag-container">
-      <h3>Tags</h3>
+        <h3>Tags</h3>
         <label>
           <input type="checkbox" name="indoor-outdoor" /> Custom task
         </label>{" "}
