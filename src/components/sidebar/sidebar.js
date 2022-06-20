@@ -10,12 +10,12 @@ function Sidebar({tasks}) {
 
         { tasks ?
           tasks.map(({ task }) => (
-          <label>
+          <label key={task.id}>
             <input type="checkbox" name="indoor-outdoor" /> {task.tag}
             <br />
           </label>
           
-        )) : "No Task Yet"}
+        )) : "No Task Yet"};
 
         {/* <br />
         <label>

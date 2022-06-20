@@ -25,20 +25,22 @@
 }
 
 .hero-container p{
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: rgb(226, 221, 221);
-    width: 100%;
+    width: 90%;
+    height: 30px;
     margin-top: 10px;
     text-align: center;
 }
 .hero-container > .button{
-    border-radius: 10px;
-    background-color: rgb(226, 221, 221);
-    width: 100px;
+    /* border-radius: 10px;
+    background-color: rgb(226, 221, 221); */
+    /* width: 100px;
+    height: 100px;
     margin-top: 10px;
-    text-align: center;
-    font-size: 10px;
-    color: red;
+    text-align: center; */
+    /* font-size: 10px; */
+   
 }
 .hero-container-two{
     display: grid;
@@ -71,9 +73,9 @@
 .hero-task{
     border:1px solid darkgrey;
     color:black;
-    font-size:11px;
-    width:130px;
-    height: 30px;
+    font-size:10px;
+    /* width:10px;
+    height: 30px; */
     border-radius:0 30px 30px 30px;
     padding:12px 20px;
     text-align: flex-start;
@@ -116,11 +118,17 @@
     }
 
     .hero-task {
-        font-size: 10px;
+        font-size: 9px;
         width: auto;
         height: 20px;
     }
 
+    .hero-task ul li{
+        margin-top:-5px ;
+        white-space: nowrap;
+    
+    }
+    
     .delete img{
         width:100%;
     }
@@ -130,35 +138,5 @@
         background-color: #fff;
         width: 50%;
     }
-    /* .task-list{
-        width:150px;
-        margin-left:-120px;
-        height:5%;
-    }
-    .container  {
-        width: 70%;
-        height:200px;
-        padding:20px;
-        display: block;
-        font-size: 12px;
-        margin-top:60px;
-
-        
-      }
-      .search-container{
-          width: 40%;
-          height:50px;
-          font-size:12px;
-      }
-      .sort-icon{
-          width: 38%;
-          height: 35px; 
-          margin-left:150px;
-          white-space: nowrap;
-      }
-      .search-container input{
-        width: 40%;
-        height:50px;
-        font-size:12px;
-    } */
+   
 }
