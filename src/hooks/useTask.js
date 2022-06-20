@@ -20,7 +20,7 @@ export const useTask = () => {
 
   const addTask = async (event) => {
     event.preventDefault();
-    const docRef = await createCollection("tasks", inputs);
+    await createCollection("tasks", inputs);
     navigate("/");
   };
 
