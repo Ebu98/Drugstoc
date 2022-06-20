@@ -13,12 +13,12 @@ function Hero({ tasks, deleteTask }) {
                 <p className="text=button">{task.tag}</p>
               </div>
               <div className="hero-container-two">
-                <p>N{task.price}</p>
+                <p>₦{task.price}</p>
                 <span>Task price</span>
                 <span>Delivery:within 3 day</span>
               </div>
               <div className="hero-container-three">
-                <img src="../assets/2ndman.png" alt="" />
+                <img src="../assets/2nd woman.png" alt="" />
                 <div className="hero-three-span">
                   <p>{task.username}</p>
                   <span>assigned to</span>
