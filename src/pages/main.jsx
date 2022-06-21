@@ -29,7 +29,7 @@ const Main = () => {
       <Navbar />
       <SearchBar />
       <div className="sidebar-hero">
-        <Sidebar />
+        <Sidebar tasks={tasks} />
         <Hero tasks={tasks} deleteTask={deleteTask} />
       </div>
       

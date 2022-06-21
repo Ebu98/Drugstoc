@@ -37,12 +37,12 @@
       .sort-icon{
           width: 38%;
           height: 35px; 
-          margin-left:150px;
+          margin-left:190px;
           white-space: nowrap;
       }
-      .search-container input{
-        width: 40%;
+      /* .search-container input{
+        width: 10%;
         height:50px;
-        font-size:12px;
-    }
+        font-size:16px;
+    } */
 }
