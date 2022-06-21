@@ -6,16 +6,14 @@ function Sidebar({tasks}) {
     <div className="sidebar-container">
       <div className="tag-container">
         <h3>Tags</h3>
-
-
         { tasks ?
           tasks.map(({ task }) => (
           <label key={task.id}>
             <input type="checkbox" name="indoor-outdoor" /> {task.tag}
             <br />
           </label>
-          
-        )) : "No Task Yet"};
+        )) : "No Task Yet"}
+        <br/>
       </div>
       <div className="task-container">
         <h3>Task Price Range</h3>

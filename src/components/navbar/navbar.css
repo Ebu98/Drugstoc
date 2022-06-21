@@ -51,7 +51,7 @@
   
   @media only screen and (max-width: 696px) {
     .navbar {
-      width: 75%;
+      /* width: 75%; */
       display: flex;
       flex-direction: column;
       
@@ -69,7 +69,7 @@
   
   @media only screen and (max-width: 375px) {
     .navbar {
-        width: 48%;
+        /* width: 48%; */
         display: flex;
       flex-direction: column;
       }
