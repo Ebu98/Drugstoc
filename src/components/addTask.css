@@ -77,10 +77,8 @@
   @media only screen and (max-width: 375px) {
     .card-wrap {
       font-size: 16px;
-      /* width: 50%; */
       width: auto;
       margin-bottom:auto;
-      /* margin-bottom: 80px; */
     }
     .register-form {
       width: 320px;
@@ -90,15 +88,12 @@
     .register-button{
       margin-top: 15px;
   }
-  
   }
   @media only screen and (max-width: 696px) {
     .card-wrap {
       font-size: 16px;
-      /* width: 50%; */
       width: auto;
       margin-bottom:auto;
-      /* margin-bottom: 80px; */
     }
     .register-form {
       width: 350px;

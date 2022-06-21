@@ -32,16 +32,7 @@
     margin-top: 10px;
     text-align: center;
 }
-.hero-container > .button{
-    /* border-radius: 10px;
-    background-color: rgb(226, 221, 221); */
-    /* width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    text-align: center; */
-    /* font-size: 10px; */
-   
-}
+
 .hero-container-two{
     display: grid;
     font-weight: lighter;
@@ -74,8 +65,6 @@
     border:1px solid darkgrey;
     color:black;
     font-size:10px;
-    /* width:10px;
-    height: 30px; */
     border-radius:0 30px 30px 30px;
     padding:12px 20px;
     text-align: flex-start;

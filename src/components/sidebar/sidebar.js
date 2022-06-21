@@ -8,7 +8,7 @@ function Sidebar({tasks}) {
         <h3>Tags</h3>
 
 
-        { tasks ?
+        {/* { tasks ?
           tasks.map(({ task }) => (
           <label key={task.id}>
             <input type="checkbox" name="indoor-outdoor" /> {task.tag}
@@ -16,8 +16,11 @@ function Sidebar({tasks}) {
           </label>
           
         )) : "No Task Yet"};
-
-        {/* <br />
+ */}
+        <label>
+          <input type="checkbox" name="indoor-outdoor" /> Custom Task
+        </label>
+        <br />
         <label>
           <input type="checkbox" name="indoor-outdoor" /> Marketing & sales
         </label>
@@ -36,7 +39,7 @@ function Sidebar({tasks}) {
         <br />
         <label>
           <input type="checkbox" name="indoor-outdoor" /> Testing
-        </label> */}
+        </label>
       </div>
       <div className="task-container">
         <h3>Task Price Range</h3>
